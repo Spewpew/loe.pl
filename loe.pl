@@ -1,5 +1,5 @@
 #!/usr/bin/perl -w
-
+#-*- mode: Perl; -*-
 use POSIX ":sys_wait_h";
 
 my $current_script_path=$0;
@@ -1934,7 +1934,3 @@ for my $arg (@ARGV){
 		$doa->{action}() if($arg=~/$doa->{regexp}/)
 	}
 }
-
-# Local Variables:
-# mode: Perl
-# End:

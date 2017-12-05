@@ -1934,3 +1934,7 @@ for my $arg (@ARGV){
 		$doa->{action}() if($arg=~/$doa->{regexp}/)
 	}
 }
+
+# Local Variables:
+# mode: Perl
+# End:
